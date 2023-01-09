@@ -31,39 +31,8 @@ $materi = [
 
 <body>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.php">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Mata Kuliah
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="page1.php">Pengantar Manajemen</a></li>
-                                <li><a class="dropdown-item" href="page2.php">Algoritma</a></li>
-                                <li><a class="dropdown-item" href="page3.php">Operating System</a></li>
-                                <li><a class="dropdown-item" href="page4.php">Bahasa Web</a></li>
-                                <li><a class="dropdown-item" href="page5.php">Pengantar TI</a></li>
-                                <li><a class="dropdown-item" href="page6.php">Basis Data</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+        <!-- include navbar -->
+        <?php include "./assets/template/navbar.php"; ?>
     </header>
     <main>
         <div class="container">
@@ -88,35 +57,13 @@ $materi = [
         </div>
 
         <div class="container">
-
-            <table class="able table-striped table-hover table table-bordered border border-dark table caption-top">
-                <caption class="text-center fs-2 text-dark">PEMBELAJARAN</caption>
-                <thead class="table-dark">
-                    <th class="text-center">PERTEMUAN KE</th>
-                    <th class="text-center">MATERI</th>
-                </thead>
-                <tbody>
-                    <!-- menampilkan array multidimensi menggunakan foreach -->
-                    <?php foreach ($materi as $mat) : ?>
-                        <tr class="text-center">
-                            <td class="text-center"><?= $mat[0] ?></td>
-                            <td class="text-center"><?= $mat[1] ?></td>
-                        </tr>
-                    <?php endforeach; ?>
-
-                </tbody>
-                <tfoot>
-                    <tr class="text-center">
-                        <td colspan="2" class="text-center">UJIAN TENGAH SEMESTER</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <!-- include table -->
+            <?php include "./assets/template/table.php"; ?>
         </div>
     </main>
     <footer>
-        <div class="col-md-12 text-center container sticky-bottom p-3 bg-secondary ">
-            <span class="text-white">&copy; RIZQI WILDAN HARIRI - INFORMATIKA KELAS A - TUGAS UAS</span>
-        </div>
+        <!-- include footer -->
+        <?php include "./assets/template/footer.php"; ?>
     </footer>
 
 
