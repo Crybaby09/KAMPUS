@@ -38,13 +38,11 @@ $materi = [
         <div class="container">
             <h3 class="text-center">PENGANTAR MANAJEMEN</h3>
             <br>
-
             <!-- penggunaan layout grid -->
             <div class="row text-center align-item-center">
                 <div class="col12">
                     <img src="assets/image/Pengantar Manajemen.jpg" class="rounded rounded-4 p-2" alt="" width="200px" height="200px">
                     <br>
-
                     <!-- menampilkan array 1 dimensi menggunakan foreach -->
                     <?php foreach ($dosen as $dos) : ?>
                         <h4 class="text-center">DOSEN PENGAMPU : <?= $dos ?></h4>
@@ -57,37 +55,14 @@ $materi = [
         </div>
 
         <div class="container">
-
-            <table class="able table-striped table-hover table table-bordered border border-dark table caption-top">
-                <caption class="text-center fs-2 text-dark">PEMBELAJARAN</caption>
-                <thead class="table-dark">
-                    <th class="text-center">PERTEMUAN KE</th>
-                    <th class="text-center">MATERI</th>
-                </thead>
-                <tbody>
-                    <!-- menampilkan array multidimensi menggunakan foreach -->
-                    <?php foreach ($materi as $mat) : ?>
-                        <tr class="text-center">
-                            <td class="text-center"><?= $mat[0] ?></td>
-                            <td class="text-center"><?= $mat[1] ?></td>
-                        </tr>
-                    <?php endforeach; ?>
-
-                </tbody>
-                <tfoot>
-                    <tr class="text-center">
-                        <td colspan="2" class="text-center">UJIAN TENGAH SEMESTER</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <!-- include table -->
+            <?php include "./assets/template/table.php"; ?>
         </div>
     </main>
     <footer>
         <!-- include footer -->
         <?php include "./assets/template/footer.php"; ?>
     </footer>
-
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
