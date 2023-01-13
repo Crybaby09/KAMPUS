@@ -1,23 +1,3 @@
-<?php
-// contoh array numerik 1 dimensi
-$dosen = ["Bapak Ponari Isno, S.E.,S.Kom.",];
-
-// contoh array numerik multidimensi
-$materi = [
-    ["SATU", "Dosen tidak masuk karena ada rapat"],
-    ["DUA", "Perkenalan dan penjelasan kontrak kuliah"],
-    ["TIGA", "Memahami perbedaan Manusia dengan mesin dan Pengenalan Flowchart"],
-    ["EMPAT", "Pemecahan masalah bilangan Ganjil-Genap menggunakan sistem sisa bagi dan Memahami perbedaan character dan numerik"],
-    ["LIMA", "Dosen Izin tidak masuk"],
-    ["ENAM", "Pemecahan masalah bilangan Ganjil-Genap menggunakan sistem pengurangan dan looping"],
-    ["TUJUH", "membahas sejarah, definisi, dan ciri-ciri Algoritma"]
-];
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +10,26 @@ $materi = [
 </head>
 
 <body>
+    <?php
+    // contoh array numerik 1 dimensi
+    $dosen = ["Bapak Ponari Isno, S.E.,S.Kom.",];
+
+    // contoh array numerik multidimensi
+    $materi = [
+        ["SATU", "Dosen tidak masuk karena ada rapat"],
+        ["DUA", "Perkenalan dan penjelasan kontrak kuliah"],
+        ["TIGA", "Memahami perbedaan Manusia dengan mesin dan Pengenalan Flowchart"],
+        ["EMPAT", "Pemecahan masalah bilangan Ganjil-Genap menggunakan sistem sisa bagi dan Memahami perbedaan character dan numerik"],
+        ["LIMA", "Dosen Izin tidak masuk"],
+        ["ENAM", "Pemecahan masalah bilangan Ganjil-Genap menggunakan sistem pengurangan dan looping"],
+        ["TUJUH", "membahas sejarah, definisi, dan ciri-ciri Algoritma"]
+    ];
+
+
+
+    ?>
+
+
     <header class="sticky-top">
         <!-- include navbar -->
         <?php include "./assets/template/navbar.php"; ?>

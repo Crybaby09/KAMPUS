@@ -1,23 +1,3 @@
-<?php
-// contoh array numerik 1 dimensi
-$dosen = ["Bapak Sujono, S.Kom., M.Kom.",];
-
-// contoh array numerik multidimensi
-$materi = [
-    ["SATU", "Perkenalan dan penjelasan Kontrak kuliah"],
-    ["DUA", "Cara mengetahui spesifikasi pada komputer atau laptop"],
-    ["TIGA", "Pengertian, Tujuan, dan Macam-macam Sistem Operasi"],
-    ["EMPAT", "Tipe Sistem Operasi dan Mengetahui cara setting booting laptop atau PC"],
-    ["LIMA", "Mengetahui Struktur yang terdapat dalam PC"],
-    ["ENAM", "Mengetahui Struktur yang terdapat dalam PC Bag.2"],
-    ["TUJUH", "Konsep Proses dan Praktek Install ulang PC"]
-];
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +10,26 @@ $materi = [
 </head>
 
 <body>
+    <?php
+    // contoh array numerik 1 dimensi
+    $dosen = ["Bapak Sujono, S.Kom., M.Kom.",];
+
+    // contoh array numerik multidimensi
+    $materi = [
+        ["SATU", "Perkenalan dan penjelasan Kontrak kuliah"],
+        ["DUA", "Cara mengetahui spesifikasi pada komputer atau laptop"],
+        ["TIGA", "Pengertian, Tujuan, dan Macam-macam Sistem Operasi"],
+        ["EMPAT", "Tipe Sistem Operasi dan Mengetahui cara setting booting laptop atau PC"],
+        ["LIMA", "Mengetahui Struktur yang terdapat dalam PC"],
+        ["ENAM", "Mengetahui Struktur yang terdapat dalam PC Bag.2"],
+        ["TUJUH", "Konsep Proses dan Praktek Install ulang PC"]
+    ];
+
+
+
+    ?>
+
+
     <header class="sticky-top">
         <!-- include navbar -->
         <?php include "./assets/template/navbar.php"; ?>

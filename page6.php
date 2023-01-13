@@ -1,23 +1,3 @@
-<?php
-// contoh array numerik 1 dimensi
-$dosen = ["Bapak Tholib Hariono, S.Kom, M.Kom.",];
-
-// contoh array numerik multidimensi
-$materi = [
-    ["SATU", "Penjelasan Kontrak kuliah dan Pengantar Basis Data"],
-    ["DUA", "Cara kerja DBMS"],
-    ["TIGA", "Tipe Data"],
-    ["EMPAT", "Entity Relationship Diagram (ERD)"],
-    ["LIMA", "Entity Relationship Diagram (ERD)"],
-    ["ENAM", "Derajat Relationship"],
-    ["TUJUH", "Cardinalitas Relationship"]
-];
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +10,26 @@ $materi = [
 </head>
 
 <body>
+    <?php
+    // contoh array numerik 1 dimensi
+    $dosen = ["Bapak Tholib Hariono, S.Kom, M.Kom.",];
+
+    // contoh array numerik multidimensi
+    $materi = [
+        ["SATU", "Penjelasan Kontrak kuliah dan Pengantar Basis Data"],
+        ["DUA", "Cara kerja DBMS"],
+        ["TIGA", "Tipe Data"],
+        ["EMPAT", "Entity Relationship Diagram (ERD)"],
+        ["LIMA", "Entity Relationship Diagram (ERD)"],
+        ["ENAM", "Derajat Relationship"],
+        ["TUJUH", "Cardinalitas Relationship"]
+    ];
+
+
+
+    ?>
+
+
     <header class="sticky-top">
         <!-- include navbar -->
         <?php include "./assets/template/navbar.php"; ?>

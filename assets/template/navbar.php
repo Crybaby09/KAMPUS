@@ -24,6 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="page6.php">Basis Data</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="page7.php">Contoh looping for</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Mata Kuliah
@@ -38,7 +41,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="page7.php">Contoh looping for</a></li>
                     </ul>
                 </li>
             </ul>

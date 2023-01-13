@@ -32,4 +32,4 @@ if ($jam >= 00 and $jam < 10) {
 
 ?>
 
-<h3 class="text-center">Selamat <?= $ucapan ?> Bapak Primaadi Airlangga M.IT</h3>
+<h3 class="text-center">Selamat <?= $ucapan ?>, Bapak Primaadi Airlangga M.IT</h3>

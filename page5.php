@@ -1,23 +1,3 @@
-<?php
-// contoh array numerik 1 dimensi
-$dosen = ["Ibu Munawarah, S.Kom, M.Si.",];
-
-// contoh array numerik multidimensi
-$materi = [
-    ["SATU", "Penjelasan tentang drive thru masa depan"],
-    ["DUA", "Perkenalan dan penjelasan kontrak kuliah"],
-    ["TIGA", "teknologi belanja online"],
-    ["EMPAT", "teknologi seputar jatim park 3"],
-    ["LIMA", "Tugas membuat video tentang teknologi informasi"],
-    ["ENAM", "Pengenalan Teknologi Informasi dan evolusi abad Informasi"],
-    ["TUJUH", "Penggolongan Teknologi Informasi sejak zaman purba hingga masa kini"]
-];
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +10,26 @@ $materi = [
 </head>
 
 <body>
+    <?php
+    // contoh array numerik 1 dimensi
+    $dosen = ["Ibu Munawarah, S.Kom, M.Si.",];
+
+    // contoh array numerik multidimensi
+    $materi = [
+        ["SATU", "Penjelasan tentang drive thru masa depan"],
+        ["DUA", "Perkenalan dan penjelasan kontrak kuliah"],
+        ["TIGA", "teknologi belanja online"],
+        ["EMPAT", "teknologi seputar jatim park 3"],
+        ["LIMA", "Tugas membuat video tentang teknologi informasi"],
+        ["ENAM", "Pengenalan Teknologi Informasi dan evolusi abad Informasi"],
+        ["TUJUH", "Penggolongan Teknologi Informasi sejak zaman purba hingga masa kini"]
+    ];
+
+
+
+    ?>
+
+
     <header class="sticky-top">
         <!-- include navbar -->
         <?php include "./assets/template/navbar.php"; ?>
